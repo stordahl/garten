@@ -84,6 +84,7 @@
 		margin: 0;
 		padding:1rem;
 		margin: 1rem auto;
+		max-height:100vh;
 	}
 	@media (min-width: 640px) {
 		main {
