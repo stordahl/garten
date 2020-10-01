@@ -1,0 +1,72 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* styles */
+html, body {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	vertical-align:middle;
+	display:table-cell;
+	overflow:hidden;
+}
+
+body {
+	color: #1f1f1f;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Cousine', monospace;
+	
+}
+h1{
+	font-size:2rem;
+}
+h6{
+	font-size:.8rem;
+	margin: 1rem auto;
+}
+a {
+	color: rgb(43, 112, 180);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
