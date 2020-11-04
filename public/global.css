@@ -16,7 +16,7 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Cousine', monospace;
-	
+	border: 10px solid white;
 }
 h1{
 	font-size:2rem;
