@@ -6,10 +6,6 @@
 			name: 'looking',
 			url: 'https://looking.netlify.app/',
 		},
-		{
-			name: 'project 2',
-			url: 'https://project2.com',
-		}
     ];
     let current = false;
     

@@ -7,8 +7,8 @@
 	import { onMount } from 'svelte';
 
 	const info = {
-		twitter: 'queeryselector',
-		insta: 'queeryselector',
+		twitter: 'stordahl_',
+		insta: 'stordahl_',
 		github: 'stordahl',
 		resume: 'https://stordahl.dev',
 		name: 'jacob stordahl'
@@ -22,7 +22,7 @@
 	};
 	const lat = '44.9778° N, 93.2650° W';
 
-	let bgClasses = ['default', 'pink', 'blue', 'salmon'];
+	let bgClasses = ['default', 'pink', 'blue', 'salmon', 'darkBlue', 'cottonCandy'];
 
 	onMount( () => {
 		let rand = bgClasses[Math.floor(Math.random() * bgClasses.length)];
@@ -70,6 +70,20 @@
 		background: -moz-linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(6, 77%, 85%, 1) 100%);
 		background: -webkit-linear-gradient(90deg, hsla(0, 87%, 79%, 1) 0%, hsla(6, 77%, 85%, 1) 100%);
 		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F89999", endColorstr="#F6C0BA", GradientType=1 );
+	}
+	:global(body.darkBlue){
+		background: hsla(246, 100%, 67%, 1);
+		background: linear-gradient(90deg, hsla(246, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+		background: -moz-linear-gradient(90deg, hsla(246, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+		background: -webkit-linear-gradient(90deg, hsla(246, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6857ff", endColorstr="#C6F8FF", GradientType=1 );
+	}
+	:global(body.cottonCandy){
+		background: hsla(61, 100%, 86%, 1);
+		background: linear-gradient(90deg, hsla(61, 100%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+		background: -moz-linear-gradient(90deg, hsla(61, 100%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+		background: -webkit-linear-gradient(90deg, hsla(61, 100%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
+		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#feffb8", endColorstr="#F5BFD7", GradientType=1 );
 	}
 	#lat{
 		position:absolute;
