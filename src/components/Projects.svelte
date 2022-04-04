@@ -6,6 +6,10 @@
 			name: 'looking',
 			url: 'https://looking.netlify.app/',
 		},
+        {
+            name: 'sketchbook',
+            url: 'https://sketchbook.stordahl.dev'
+        },
     ];
     let current = false;
     
